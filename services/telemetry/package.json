@@ -1,0 +1,19 @@
+{
+  "name": "@portfolio/telemetry",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/index.ts",
+    "start": "bun run src/index.ts",
+    "check": "biome check src"
+  },
+  "dependencies": {
+    "@elysiajs/cors": "^1.2.0",
+    "@elysiajs/swagger": "^1.2.0",
+    "elysia": "^1.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.0"
+  }
+}
