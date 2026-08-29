@@ -5,7 +5,7 @@ After=network.target
 [Service]
 Type=simple
 User=deji
-WorkingDirectory=/opt/portfolio-telemetry
+WorkingDirectory=/opt/portfolio-telemetry/services/telemetry
 ExecStart=/home/deji/.bun/bin/bun run src/index.ts
 Restart=always
 RestartSec=5
