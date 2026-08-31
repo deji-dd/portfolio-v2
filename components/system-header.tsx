@@ -3,7 +3,6 @@
 import {
   Check,
   ChevronDown,
-  Cpu,
   Download,
   FolderGit2,
   History,
@@ -46,7 +45,6 @@ export function SystemHeader() {
 
   const navLinks = [
     { label: "Architecture", href: "#architecture", icon: Layers },
-    { label: "Cloud Lab", href: "#cloud-lab", icon: Cpu },
     { label: "Stack Matrix", href: "#stack", icon: FolderGit2 },
     { label: "Changelog", href: "#events", icon: History },
     { label: "Transmit", href: "#contact", icon: Send },

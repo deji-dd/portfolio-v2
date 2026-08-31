@@ -4,8 +4,6 @@
   "private": true,
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
-    "dev:telemetry": "bun --watch services/telemetry/src/index.ts",
-    "start:telemetry": "bun run services/telemetry/src/index.ts",
     "build": "next build",
     "start": "next start",
     "lint": "biome lint .",

@@ -57,13 +57,6 @@ export interface ProjectItem {
   };
 }
 
-export interface HardwareSpecItem {
-  category: string;
-  key: string;
-  value: string;
-  detail?: string;
-}
-
 export interface SystemEventLog {
   id: string;
   year: string;

@@ -1,5 +1,4 @@
 import { ArchitectureInspectorSection } from "@/components/architecture-inspector";
-import { CloudLabTelemetry } from "@/components/cloud-lab-telemetry";
 import { CommandPalette } from "@/components/command-palette";
 import { ContactConsole } from "@/components/contact-console";
 import { HeroTelemetry } from "@/components/hero-telemetry";
@@ -24,7 +23,6 @@ export default function Home() {
         <main className="flex-1 flex flex-col">
           <HeroTelemetry />
           <ArchitectureInspectorSection />
-          <CloudLabTelemetry />
           <TechStackMatrix />
           <SystemEventsLog />
           <ContactConsole />

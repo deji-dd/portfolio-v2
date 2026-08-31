@@ -1,4 +1,4 @@
-import type { HardwareSpecItem, SystemEventLog, TechSkill } from "./types";
+import type { SystemEventLog, TechSkill } from "./types";
 
 export const SYSTEM_IDENTITY = {
   name: "Ayodeji B.",
@@ -25,48 +25,9 @@ export const SYSTEM_IDENTITY = {
     { label: "Systems & Web Experience", value: "4+ Years" },
     { label: "Production Clusters", value: "8+ Deployed" },
     { label: "System Reliability Target", value: "99.9%" },
+    { label: "Edge Network SLA", value: "< 50ms" },
   ],
 };
-
-export const HARDWARE_SPECS: HardwareSpecItem[] = [
-  { category: "COMPUTE", key: "Platform", value: "Google Cloud Platform (e2-micro)" },
-  {
-    category: "COMPUTE",
-    key: "vCPU Architecture",
-    value: "1 vCPU (x86_64 Shared)",
-    detail: "Lightweight Systemd Host",
-  },
-  {
-    category: "MEMORY",
-    key: "RAM Capacity",
-    value: "1024 MiB ECC RAM",
-    detail: "Lean footprint ~32%",
-  },
-  {
-    category: "STORAGE",
-    key: "Primary Disk",
-    value: "30 GB Standard Persistent Disk",
-    detail: "ext4 Linux",
-  },
-  {
-    category: "OS / KERNEL",
-    key: "Operating System",
-    value: "Ubuntu 24.04 LTS (Noble)",
-    detail: "Kernel 6.8.0-gcp",
-  },
-  {
-    category: "TUNNEL & MESH",
-    key: "Zero-Trust Mesh",
-    value: "Tailscale WireGuard + Cloudflared",
-    detail: "No open public ports",
-  },
-  {
-    category: "CI/CD & EXEC",
-    key: "Automation Engine",
-    value: "GitHub Actions Self-Hosted Runner",
-    detail: "Systemd Daemon",
-  },
-];
 
 export const SYSTEM_EVENTS: SystemEventLog[] = [
   {
@@ -87,6 +48,27 @@ export const SYSTEM_EVENTS: SystemEventLog[] = [
       "Docker",
       "Hyper-V",
       "Resend API",
+    ],
+  },
+  {
+    id: "exp-bufferflow",
+    year: "2026",
+    date: "2026 - Present",
+    role: "Creator & Systems Architect",
+    title: "Bufferflow",
+    org: "High-Throughput Ingress & Buffering Architecture",
+    description:
+      "Engineered a high-throughput ingress gateway and shock-absorbing buffer engine in Bun and ElysiaJS. Implemented token-bucket rate limiting, LRU idempotency deduplication, sub-10ms 202 ingress SLA, 7 dynamic load routing algorithms, circuit-breaking worker pool, DLQ replay, and real-time 250ms WebSocket telemetry streaming with an interactive React DAG pipeline.",
+    tags: [
+      "Bun",
+      "TypeScript",
+      "ElysiaJS",
+      "Docker",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "WebSockets",
+      "XYFlow",
+      "Tailwind CSS",
     ],
   },
   {

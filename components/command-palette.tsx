@@ -4,9 +4,7 @@ import {
   ArrowRight,
   Code2,
   Copy,
-  Cpu,
   Download,
-  ExternalLink,
   FolderGit2,
   History,
   Layers,
@@ -134,14 +132,6 @@ export function CommandPalette() {
         action: () => scrollTo("architecture"),
       },
       {
-        id: "nav-lab",
-        category: "Navigation",
-        title: "goto /cloud-lab",
-        subtitle: "Live Azure virtualization HUD",
-        icon: Cpu,
-        action: () => scrollTo("cloud-lab"),
-      },
-      {
         id: "nav-stack",
         category: "Navigation",
         title: "goto /stack",
@@ -253,17 +243,6 @@ export function CommandPalette() {
         icon: LinkedinIcon,
         action: () => {
           window.open(SYSTEM_IDENTITY.linkedin, "_blank");
-          setIsOpen(false);
-        },
-      },
-      {
-        id: "ext-lab",
-        category: "External Links",
-        title: "open /cloud-lab/endpoint",
-        subtitle: `https://${SYSTEM_IDENTITY.host}`,
-        icon: ExternalLink,
-        action: () => {
-          window.open(`https://${SYSTEM_IDENTITY.host}`, "_blank");
           setIsOpen(false);
         },
       },
