@@ -2,6 +2,7 @@
 
 import { Activity, Clock, Download, Mail } from "lucide-react";
 import { useEffect, useState } from "react";
+
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { SYSTEM_IDENTITY } from "@/lib/system-data";
 

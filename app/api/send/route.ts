@@ -1,6 +1,7 @@
 import { type NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 import { z } from "zod";
+
 import rateLimit from "@/lib/rate-limit";
 
 const resendApiKey = process.env.RESEND_API_KEY;

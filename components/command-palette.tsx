@@ -16,6 +16,7 @@ import {
 import type React from "react";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { toast } from "sonner";
+
 import { GithubIcon, LinkedinIcon } from "@/components/icons";
 import { useTheme } from "@/components/theme-provider";
 import { PROJECTS_DATA } from "@/lib/projects-data";

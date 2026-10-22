@@ -1,7 +1,9 @@
 "use client";
 
 import { useState } from "react";
+
 import { PROJECTS_DATA } from "@/lib/projects-data";
+
 import { ProjectCard } from "./project-card";
 
 export function ArchitectureInspectorSection() {

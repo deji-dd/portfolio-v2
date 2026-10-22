@@ -1,8 +1,10 @@
 "use client";
 
 import { Briefcase, Clock, ExternalLink } from "lucide-react";
+
 import { GithubIcon } from "@/components/icons";
 import type { ProjectItem } from "@/lib/types";
+
 import { PreviewViewer } from "./preview-viewer";
 
 interface ProjectCardProps {

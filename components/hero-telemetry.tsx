@@ -2,6 +2,7 @@
 
 import { ArrowRight, Check, Copy, Layers, MapPin, Terminal } from "lucide-react";
 import { useState } from "react";
+
 import { SYSTEM_IDENTITY } from "@/lib/system-data";
 
 export function HeroTelemetry() {

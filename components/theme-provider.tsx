@@ -2,6 +2,7 @@
 
 import type React from "react";
 import { createContext, useContext, useEffect, useState } from "react";
+
 import type { ThemeAccent } from "@/lib/types";
 
 export type ThemeMode = "dark" | "light";

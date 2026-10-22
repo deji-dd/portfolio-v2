@@ -1,6 +1,7 @@
 "use client";
 
 import { Activity, Building2, GitCommit } from "lucide-react";
+
 import { SYSTEM_EVENTS } from "@/lib/system-data";
 
 export function SystemEventsLog() {

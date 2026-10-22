@@ -249,12 +249,7 @@ export const TECH_SKILLS: TechSkill[] = [
     level: "PROD",
     experience: "3+ yrs",
     category: "Tooling & Protocols",
-    highlights: [
-      "Self-Hosted Runners",
-      "Automated SSH Deployments",
-      "Biome Linter",
-      "Build Pipelines",
-    ],
+    highlights: ["Self-Hosted Runners", "Automated SSH Deployments", "Bun fmt", "Build Pipelines"],
   },
   {
     name: "Resend API & Transactional Messaging",

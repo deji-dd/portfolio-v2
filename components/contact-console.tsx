@@ -4,6 +4,7 @@ import { Check, Copy, Loader2, Send, Terminal } from "lucide-react";
 import type React from "react";
 import { useState } from "react";
 import { toast } from "sonner";
+
 import { SYSTEM_IDENTITY } from "@/lib/system-data";
 
 export function ContactConsole() {

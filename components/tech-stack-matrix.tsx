@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+
 import { TECH_SKILLS } from "@/lib/system-data";
 
 export function TechStackMatrix() {

@@ -14,6 +14,7 @@ import {
   Terminal,
 } from "lucide-react";
 import { useEffect, useState } from "react";
+
 import { triggerCommandPalette } from "@/components/command-palette";
 import { useTheme } from "@/components/theme-provider";
 

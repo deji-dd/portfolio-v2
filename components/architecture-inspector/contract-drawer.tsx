@@ -2,6 +2,7 @@
 
 import { Check, Copy, FileCode } from "lucide-react";
 import { useState } from "react";
+
 import type { DataContract } from "@/lib/types";
 
 interface ContractDrawerProps {

@@ -1,6 +1,7 @@
 "use client";
 
 import { CheckCircle2, Cpu } from "lucide-react";
+
 import type { ProjectItem } from "@/lib/types";
 
 interface PreviewViewerProps {
